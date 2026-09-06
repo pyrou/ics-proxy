@@ -7,6 +7,6 @@ services:
       SERVER_PATH: ${SERVER_PATH}
       SERVER_HOST: 0.0.0.0
       SERVER_PORT: 8080
-      EVENT_PREFIX: ${EVENT_PREFIX:"C:"}
+      EVENT_PREFIX: ${EVENT_PREFIX}
     ports:
       - "${PUBLIC_PORT:-8080}:8080"
